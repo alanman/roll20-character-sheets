@@ -115,15 +115,6 @@ div.sheet-bottom-border {
 .sheet-number-width {
     width: 47px;
 }
-.sheet-damage-width {
-    width: 94px;
-}
-.sheet-button-width {
-    width: 20px;
-}
-.sheet-enable-width {
-    width: 100px;
-}
 input.sheet-total {
     font-weight: bold;
     text-align: center;
@@ -227,7 +218,7 @@ input[type="checkbox"].sheet-details-toggle:not(:checked) ~ div.sheet-details {
 
 /* Logo wrapper */
 div.sheet-logo {
-    width: 175px;
+    width: 212px;
 }
 
 /* Superscripts */
@@ -246,13 +237,6 @@ input.sheet-setting-toggle-mythic-britain ~ div .sheet-mythic-britain {
 input.sheet-setting-toggle-default:checked ~ div .sheet-default,
 input.sheet-setting-toggle-luther-arkwright:checked ~ div .sheet-luther-arkwright,
 input.sheet-setting-toggle-mythic-britain:checked ~ div .sheet-mythic-britain {
-    display: initial;
-}
-
-input.sheet-spirit-tenacity-toggle ~ div .sheet-spirit-tenacity {
-    display: none;
-}
-input.sheet-spirit-tenacity-toggle:checked ~ div .sheet-spirit-tenacity {
     display: initial;
 }
 
@@ -632,7 +616,7 @@ input[type="checkbox"].sheet-display-melee-weapons:not(:checked) ~ div.sheet-dis
     display: none;
 }
 
-input[type="checkbox"].sheet-display-missile-weapons:not(:checked) ~ div.sheet-display-missile-weapons {
+input[type="checkbox"].sheet-display-missle-weapons:not(:checked) ~ div.sheet-display-missle-weapons {
     display: none;
 }
 
@@ -735,13 +719,13 @@ div.sheet-weapon-traits {
     width: 19.5%;
 }
 
-div.sheet-weapon-missile-effects {
+div.sheet-weapon-missle-effects {
     display: inline-block;
     text-align: center;
     width: 21.75%;
 }
 
-div.sheet-weapon-missile-traits {
+div.sheet-weapon-missle-traits {
     display: inline-block;
     text-align: center;
     width: 12.5%;
@@ -939,19 +923,6 @@ div.sheet-fetish-description {
     display: inline-block;
     text-align: center;
     width: 70%;
-}
-div.sheet-fetish-skill-column {
-    display: inline-block;
-    margin-right: 1px;
-    width: 33%;
-}
-div.sheet-fetish-skill {
-    display: inline-block;
-    width: 200px;
-}
-div.sheet-fetish-powers-column {
-    display: inline-block;
-    width: 66%;
 }
 div.sheet-mediation-number {
     display: inline-block;
@@ -1253,8 +1224,6 @@ div.sheet-note {
 }
 .sheet-rolltemplate-default td.sheet-template_label {
   font-weight: bold;
-  float: left;
-  text-align: left;
 }
 .sheet-rolltemplate-default td.sheet-template_value {
   text-align: center;
